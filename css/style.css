@@ -1,18 +1,19 @@
-table,.clay,a,.meap,.l,.p,h3,.space{
+table,.clay,a,.meap,.l,.p,h3,.space,.copy,.face,.twitter,.insta,#oval,#ova,.back,.home{
   font-family: 'Roboto', sans-serif;
   position: absolute;
 }
 table{
   top:50px;
-  left:1600px;
+  left:1500px;
   color:#616263;
   width:250px;
 }
 a{
   color:#616263;
+  width: 250px;
 }
 a:hover{
-  color:#2c2d2e;
+  color:#2c2b2e;
 }
 .clay{
   top:50px;
@@ -30,16 +31,84 @@ a:hover{
   font-size:100px;
 }
 .p{
-  top:390px;
+  top:490px;
   left:100px;
+  width:200px;
+  height: 10px;
 }
-h3{
+.you{
   top:500px;
   left:100px;
-  font-size:20px;
+  width: 700px;
+  font-size:30px;
+  color: #68696b;
+}
+#ova {
+  width: 200px;
+  height: 80px;
+  background: #5b2d96;
+  border-radius: 40px;
+  top: 700px;
+  left: 100px;
+}
+#oval{
+  width: 200px;
+  height: 80px;
+  background: #5b2d96;
+  border-radius: 40px;
+  top: 700px;
+  left: 400px;
+}
+#oval:hover{
+  width: 200px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  border-color: #5b2d96;
+
+}
+#ova:hover{
+  width: 200px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  border-color: #5b2d96;
+}
+.back{
+  left:60px;
+  color:#FFFFFF;
+}
+.back:hover{
+  color: #000000;
+}
+.go:hover{
+  color: #000000;
+}
+.go{
+  left:60px;
+  color: #FFFFFF;
 }
 .space{
   top:200px;
   left:1200px;
   width: 500px;
+}
+.copy{
+  top:920px;
+  left:1600px;
+}
+.face{
+  top:920px;
+  left:100px;
+  width:30px;
+}
+.twitter{
+  top:920px;
+  left:160px;
+  width:30px;
+}
+.insta{
+  top:920px;
+  left:220px;
+  width:30px;
 }
